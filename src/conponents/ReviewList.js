@@ -27,6 +27,7 @@ function ReviewList({ items, onDelete }) {
     <ul>
       {items.map((item) => {
         return (
+          // 추가
           <li key={item.id}>
             <ReviewListItem item={item} onDelete={onDelete} />
             <input type="text" />
