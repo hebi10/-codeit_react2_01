@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ReviewList from "./ReviewList";
-
 import { getReviews } from "../api";
 
 const LIMIT = 6;
